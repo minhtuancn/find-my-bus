@@ -19,7 +19,6 @@ An application to find nearest bus stop and the timing for the next bus arrival.
 * `composer install --no-dev` for live environment.
 * `composer install` for dev environment.
 * copy `.env.example` to `.env` (if not present) and edit accordingly.
-    * __YOU MUST SET THE `APP_KEY` TO 32 char strings__ 
 * `php artisan migrate --seed` to setup DB tables and base account info.
 * `php artisan db:seed --class=DemoSeeder` to add demo data.
 

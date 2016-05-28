@@ -8,7 +8,8 @@
                 <div class="panel-heading">Welcome</div>
 
                 <div class="panel-body">
-                    This is a Sample Application to find your nearest bus stop.
+                    <p>This is a Sample Application to find your nearest bus stop.</p>
+                    <p><a href="{{ url('login') }}">Login</a> to the system to find your nearest bust stop & next bus arrival timings</p>
                 </div>
             </div>
         </div>
